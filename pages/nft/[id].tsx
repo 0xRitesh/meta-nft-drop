@@ -12,7 +12,7 @@ function NFTDropPage() {
   return (
     <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'> 
       {/* Left */}
-      <div className='lg:col-span-4 bg-gradient-to-br from-cyan-800 to rose-500 '>
+      <div className='lg:col-span-4 bg-gradient-to-br from-cyan-800 to-rose-500 '>
         <div className='flex flex-col items-center justify-center py-2 lg:min-h-screen'>
           <div className='rounded-xl bg-gradient-to-br from-yellow-400 to-purple-600'>
             <img
@@ -22,8 +22,8 @@ function NFTDropPage() {
             />
           </div>
           <div>
-            <h1 className='text-4xl font-bold text-white'>
-              ritesh's Apes</h1>
+            <h1 className='text-4xl font-bold text-white '>
+              Meta's Apes</h1>
             <h2 className='text-xl text-gray-300'>A collection of Apes who Live & breath React!</h2>
           </div>
         </div>
@@ -35,9 +35,9 @@ function NFTDropPage() {
         {/* Header */}
         <header className='flex items-center justify-between'>
           <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80'> 
-            The{''}
+            The {''}
             <span className='font-extrabold underline decoration-pink-600/50'>
-            ritesh
+             meta  {''}
             </span>
             NFT Market Place
           </h1>
@@ -64,8 +64,8 @@ function NFTDropPage() {
           <img className='w-80 object-cover pb-10 lg:h-40'
           src='https://user-images.githubusercontent.com/56651899/177612723-bf4cdc76-047a-409e-afdf-f85fd275e9de.jpg' 
           alt='apes'/>
-          <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>Exclusive Club Giveaway | NFT drop</h1>
-          <p className='pt-2 text-xl text-green-500'>1/21 NFT's Claimed</p>
+          <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>Exclusive Club Giveaway</h1>
+          <p className='pt-2 text-xl text-green-500'>17/21 NFT's Claimed</p>
         </div>
 
         {/* Mint Button */}

@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>NFT Drop</title>
+        <title>Meta NFT Drop</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
