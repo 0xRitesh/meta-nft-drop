@@ -23,3 +23,39 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  const query = groq`*[_type == "collection"] {
+    _id,
+    title,
+    address,
+    description,
+    nftCollectionName,
+    mainImage {
+      asset
+    },
+    previewImage {
+      asset
+    },
+    slug {
+      current
+    },
+    creator-> {
+      _id,
+      name,
+      address,
+      slug {
+        current
+      }
+    }
+  }`;
+
+  const collections = await sanityClient.fetch(query);
+
+  return {
+    props: {
+      collections,
+    },
+  };
+};
