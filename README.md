@@ -1,23 +1,25 @@
-# Next.js + Tailwind CSS Example
+# NFT Drop
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Mint your own NFT on the Rinkeby network.
 
-## Deploy your own
+## Live Demo
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+[https://nft-drop-nine-bice.vercel.app/](https://nft-drop-nine-bice.vercel.app/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## User flow
 
-## How to use
+- Select a NFT Collection.
+- Sign In using [Metamask](https://metamask.io/), ensure you are on the Rinkeby test network.
+- Click on the Mint button to mint an NFT from the collection.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Built using
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- [Nextjs](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sanity CMS](https://www.sanity.io/)
+- [Thirdweb](https://docs.thirdweb.com/react)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## License
+
+Code released under the [MIT License](https://github.com/Tushar-Indurjeeth/NFT-Drop/blob/e45a2fbe1e6bdcd17e37e49a489f01c8efbfa5e9/LICENSE).

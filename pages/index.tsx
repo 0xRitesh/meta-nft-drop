@@ -23,7 +23,7 @@ const Home = ({ collections }: Props) => {
       </Head>
 
       <h1 className="mb-10 text-4xl font-extralight">
-        <span className="font-extrabold underline decoration-pink-600/50">{`Tushar's `}</span>
+        <span className="font-extrabold underline decoration-pink-600/50">{`Meta's `}</span>
         {` NFT Market Place`}
       </h1>
 
@@ -88,3 +88,4 @@ export const getServerSideProps: GetServerSideProps = async () => {
       collections,
     },
   };
+};
